@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Moneda Sostenible Promotora del Intercambio Justo y Solidario «Pachi»</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Sistema de Moneda Sostenible Promotora del Intercambio Justo y Solidario «Pachi»</h1>
+    <p><a href="../index.html">← Volver al inicio</a></p>
+  </header>
+  <main>
+    <article>
+      <p>Invierno 2024</p>
+      <p>Versión 1.0</p>
+      <p>Este documento se encuentra en construcción, las notas de la versión actual se irán publicando en el repositorio GitHub del proyecto</p>
+      <h2>Introducción (Contexto y por qué del uso del sistema)</h2>
+      <p>Actualmente nuestra sociedad se encuentra en puntos extremos en los cuales, el viaje de un punto a otro sólo se logra a través de la acumulación o pérdida del dinero que se posea.</p>
+      <p>Por otra parte, el consumo desmedido provoca necesariamente desperdicios que pocas veces son aprovechados o reciclados. Es sorprendente la cantidad de alimentos, materias primas e incluso tecnología en buen estado que se puede encontrar en los basureros.</p>
+      <p>Es por lo anterior que propongo un sistema de intercambio que promueva el trueque de los bienes que nos sobren o parte de los servicios que podamos brindar con el fin de fortalecer nuestras comunidades y utilizar nuestro dinero de una forma más ética.</p>
+      <h2>Definiciones:</h2>
+      <p>Pachi</p>
+      <p>En Quechua significa “cambiar” o “invertir”, en Hindú significa “verde”. La elección del nombre es debido a que es fácil de pronunciar, y recordar, pero sobre todo, al juntar las dos definiciones antes mencionadas puede leerse como “intercambiar lo verde” o “invertir en lo verde” debido a nuestro profundo interés en la naturaleza.</p>
+      <p>Existe un perrito de peluche llamado Pachi, al que tengo mucho amor ya que me ha acompañado todos los días desde hace años.</p>
+      <p>iniciador y participante</p>
+      <p>Iniciador: Persona que comienza la red de confianza, la administra y lidera.</p>
+      <p>Participante: Persona que decide por voluntad propia tomar, la responsabilidad dentro de la red de confianza de intercambiar bienes y servicios, así como seguir el reglamento con respeto y solidaridad.</p>
+      <p>Nota: Ninguna persona, ni el iniciador ni el participante está por encima del Sistema de Moneda Sostenible Promotora del Intercambio Justo y Solidario, ninguna de las dos figuras vale más que la otra, ni el participante ni el iniciador tiene privilegio alguno, ambas figuras valen exactamente lo mismo en la red de confianza. El Sistema puede modificarse a conveniencia siempre y cuando se respete la solidaridad, la ética y el intercambio sostenible con respecto a la naturaleza y el bien para el planeta.</p>
+      <p>Red de confianza</p>
+      <p>Grupo de 7 personas (6 participantes y 1 iniciador) que deciden tomar responsabilidades éticas y sostenibles. Usan el sistema con responsabilidad, los bienes y servicios que intercambian es con el único fin de mejorar la comunidad y fortalecer las relaciones solidarias.</p>
+      <h2>Anatomía del papel moneda Pachi</h2>
+      <img src="../imagenes/1_pachinai.webp" alt="Anatomia de un Pachi" style="width: 400px; height: auto; border: 2px solid black;">
+      <p>La anatomía es muy sencilla, se muestra la cantidad de Pachis, un gráfico sencillo y el lugar dónde colocar el NAI. Los archivos de edición de los gráficos y el texto está disponible para Software de código abierto.</p>
+      <h2>Manual del iniciador</h2>
+      <p>El siguiente manual tiene cómo fin facilitar la tarea del iniciador, antes quiero mostrar mi gratitud por tan noble labor.</p>
+      <p>A continuación se muestra la forma más sencilla de poner el sistema en marcha.</p>
+      <p>Repartición</p>
+      <p>Se repartirán 700 pachis para cada persona de la red de confianza incluido el iniciador de la siguiente manera:</p>
+      <li>
+		  <p>Billete de 50 Pachis — x4</p>
+      </li>
+      <li>
+		  <p>Billete de 20 Pachis — x5</p>
+      </li>
+      <li>
+		  <p>Billete de 10 Pachis — x10</p>
+      </li>
+      <li>
+		  <p>Billete de 5 Pachis — x12</p>
+      </li>
+      <li>
+		  <p>Billete de 1 Pachi — x 40</p>
+      </li>
+      <p>Herramientas informáticas de código abierto</p>
+      <p>Usando la herramienta informática de código abierto proporcionada a continuación se generan números aleatorios para cada denominación, por ejemplo: 10_9570410 donde: “10_” es la denominación de la cantidad de Pachis y “9570410) es el número aleatorio de identificación (NAI).</p>
+      <p>1.- La primera herramienta está escrita en el lenguaje de programación Python en su versión 3.8, puede ejecutarse en cualquier sistema operativo de escritorio así como en dispositivos móviles.</p>
+      <p>Recomendamos utilizar sistemas operativos de código abierto. Para instalar Python (en caso de no tenerlo) basta con seguir las sencillas instrucciones proporcionadas en: www.python.com (Sistemas operativos basados en GNU/Linux o MacOS ya tienen Python preinstalado).</p>
+      <p>En sistemas operativos móviles existen aplicaciones para correr el código cómo “Pydroid 3”.</p>
+      <p>2.- Si se prefiere, se puede utilizar el software escrito en Godot 3 con una interfaz de usuario amigable, se puede utilizar en sistemas Linux y en sistemas Windows en caso de no contar con algún otro SO.</p>
+      <img src="../imagenes/programageneradordenai.png" alt="Programa generador de NAI" style="width: 700px; height: auto; border: 2px solid black;">
+      <p>El uso de la herramienta es sencillo, se colocan la cantidad de NAI’s que se desean generar, se selecciona la nomenclatura (1_, 5_, 10_, 20_ o 50_ ) y se da click en “Generar Pachi’s NAI”</p> 
+      <a href="https://supersnufkin.itch.io/generador-de-nais-en-pachis">Puedes descargarlo aquí.</a>
+      <h2>Importancia del Número Aleatorio del Identificación (NAI)</h2>
+      <p>Cada uno de los billetes impresos deben tener su Número Aleatorio de Identificación que el iniciador (e impresor de los billetes) debe colocar en cada uno de ellos para cada persona y él mismo. Éstos NAI deben ser públicos con el fin de que cada participante pueda consultarlos para de evitar falsificaciones y malos entendidos, de igual forma sirve para corroborar su autenticidad en caso de cambiarlos con otra red de confianza.</p>
+      <h2>Publicación de bienes y servicios</h2>
+      <p>Cada persona de la red de confianza puede hacer públicos los bienes y servicios que esté dispuesto a intercambiar por Pachis. Para lo anterior, el iniciador debe elaborar un grupo público de publicación en alguna de las siguientes aplicaciones de mensajería propuestas:</p>
+      <li>
+		  <p>Signal</p>
+      </li>
+      <li>
+		  <p>Jami</p>
+      </li>
+      <li>
+		  <p>SimpleX</p>
+      </li>
+      <p>Nota: Se recomienda evitar el uso de aplicaciones privativas como “Whatsapp”, “Google” o cualquier servicio de Meta.</p>
+      <p>La publicación deberá de tener información importante que defina lo siguiente:</p>
+      <li>
+		  <p>1.- Nombre del bien o servicio</p>
+      </li>
+      <li>
+		  <p>2.- Breve descripción</p>
+      </li>
+      <li>
+		  <p>3.-Costo en Pachis</p>
+      </li>
+      <li>
+		  <p>4.-Lugar de intercambio del bien o prestación del servicio</p>
+      </li>
+      <p>Una buena práctica es que el iniciador haga la primera publicación en el grupo con todos los NAI de cada uno de los Pachis que tiene cada persona de la red de confianza.</p>
+      <h2>La mejor forma de entender el sistema</h2>
+      <p>Con el siguiente ejemplo simple, el sistema puede comprenderse de forma básica:</p>
+      <p>Supongamos que existen tres amigos, los cuales tienen $1000 pesos mexicanos cada uno. Cómo todas las personas, tienen necesidades e intereses en particular y deciden utilizar Pachis.</p>
+      <p>La persona 1, vende dos platos de comida fresca que le sobraron de ese día en 50 pachis cada uno.</p>
+      <p>La persona 2, da clases de violín a 30 pachis la hora.</p>
+      <p>La persona 3, vende manzanas de su huerto a 10 pachis cada una.</p>
+      <p>La persona 2 le compra comida a la persona 1, la persona 3 toma clases de violín con la persona 2 y la persona 2 compra una manzana a la persona 3.</p>
+      <p>Los tres amigos satisficieron sus necesidades ese día a través del sistema Pachi.</p>
+      <p>Los tres amigos mantuvieron intactos sus $1000 pesos mexicanos.</p>
+      <p>Se pretende que, en la red de confianza (Los tres amigos se conocen bien) se promuevan bienes y servicios, objetos que sobren o se tengan sin usar, alimentos en buen estado que sobren con el fin de no desperdiciarse o que signifiquen formas de promover la solidaridad.</p>
+      <h2>Consideraciones finales importantes</h2>
+      <p>-Los Pachis son una moneda en movimiento, NO ACUMULATIVA.</p>
+      <p>-Los Pachis pueden ser intercambiados por bienes y servicios.</p>
+      <p>-Cada persona en la red de confianza tendrá 700 Pachis incluido el iniciador. Cada persona puede renunciar en cualquier momento. Los Pachis a los que renuncie deberán ser entregados al iniciador, quien deberá cotejar los NAI con la lista de NAI publicada. Después, deberá destruirlos en su totalidad frente a toda la red de confianza.</p>
+      <p>-El valor de los bienes y servicios será determinado por los tratantes.</p>
+      <p>-Los Pachis como tal, no tienen valor. Son sólo el medio por el cual se promueve un intercambio justo y solidario dentro de la red de confianza.</p>
+      <p>-Se espera que los bienes y servicios sean cosas que sobren, se reciclen o sean sostenibles.</p>
+      <h2>Notas Legales</h2>
+      <p>Para futuras referencias, es importante recordar las siguientes notas legales que, al igual que con los Túmin en México o con la Juna en Europa, mantienen al sistema al margen de la ley, proporcionando legalidad y estabilidad.</p>
+      <p>1.- Complemento, no sustitución</p>
+      <p>Es un sistema paralelo de intercambio que coexiste con la moneda nacional, lo que garantiza que no entre en conflicto con las leyes que regulan la moneda nacional.</p>
+      <p>2.- Libre acuerdo</p>
+      <p>Las redes de confianza son completamente voluntarias.</p>
+      <p>3.- Autonomía local.</p>
+      <p>Los Pachis NO pretenden tener valor alguno a nivel nacional o en el mercado financiero formal.</p>
+      <p>4.-Apoyo social y financiero</p>
+      <p>Los Pachis se promueven cómo una herramienta para fortalecer economías locales, fomentar el intercambio justo y crear redes de solidaridad. Es desarrollo comunitario.</p>
+      <h2>Conclusiones</h2>
+      <p>El presente sistema pretende ser un apoyo a personas y comunidades que realmente lo necesiten. Aquellas comunidades o personas que se ven sofocadas por el sistema económico actual, aquellos que se ven desempleados o que no ganan el suficiente dinero debido a malas prácticas empresariales.</p>
+      <p>Se desea que el sistema favorezca a todas las redes de confianza que se generen con el fin de que el dinero oficial que se posea sea utilizado de la mejor forma posible y que los bienes o servicios que se ofrezcan fortalezcan a la comunidad.</p>
+      <p>Es momento de contemplar al dinero oficial como un simple medio de intercambio, no único ni todopoderoso. De esa forma lograremos emanciparnos de deseos mal encaminados y ser un poco más crítico con nuestro consumo de bienes y servicios, así como nuestro consumo cultural.</p>
+      <p>___________________________________________________</p>
+      <p>Este documento, los gráficos y código se elaboraron utilizando software de código abierto.</p>
+      <li>
+		  <p>Sistema operativo: Trisquel SO</p>
+      </li>
+      <li>
+		  <p>Para escritura: LibreOffice</p>
+      </li>
+      <li>
+		  <p>Gráficos: Krita y GIMP</p>
+      </li>
+      <li>
+		  <p>Para el código informático: Godot3 y Python3</p>
+      </li>
+      <p>A continuación se ofrece el diseño de cada billete Pachi con el fin de que se impriman a conveniencia, a su vez, se adjunta a éste documento los archivos .xfc y .kra correspondientes a GIMP y Krita para su modificación en caso de requerirlo.</p>
+      <a href="https://github.com/SuperSnufkin/GeneradordeNAISenPachis/releases/tag/Pachis">Descárcalo desde aquí.</a>
+      
+      
+      
+      
+      
+      
+      <p>Gracias por leer</p>
+      <p>Por: Israel G. Bistrain 2024</p>
+      <p>Si lo deseas puedes seguirme en Mastodon:</p>
+      <a href="https://mastodon.social/@supersnufkin">@supersnufkin@mastodon.social</a>
+      
+      
+     
+      
+      
+      
+    </article>
+  </main>
+
+  <footer>
+    <p><small>© 2025 – Este sitio no usa cookies, rastreadores, JavaScript ni ninguna herramienta de los malosos. Solo HTML y CSS.</small></p>
+  </footer>
+</body>
+</html>
